@@ -1,0 +1,10 @@
+language: java
+
+#jdk:
+  - openjdk7
+#
+#install:
+#    mvn test
+
+after_success:
+  - mvn jacoco:report coveralls:report
