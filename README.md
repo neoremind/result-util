@@ -1,9 +1,16 @@
 # result-util
+[![Build Status](https://travis-ci.org/neoremind/result-util.svg?branch=master)](https://travis-ci.org/neoremind/result-util)
+[![Coverage Status](https://coveralls.io/repos/github/neoremind/result-util/badge.svg?branch=master)](https://coveralls.io/github/neoremind/result-util?branch=master)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.neoremind/result-util/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.neoremind/result-util)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 Result utility for Java programmer
 
 ## Usage
-1. Define result enum
+###1. Define result enum
+
 For example, under `com.myproject` package.
+
 ```
 import net.neoremind.resultutil.result.ResultCode;
 import net.neoremind.resultutil.result.ResultCodeMessage;
@@ -52,7 +59,7 @@ public enum SampleResultCode implements ResultCode {
 }
 ```
 
-2. Create XML resource file
+###2. Create XML resource file
 
 **The XML file MUST be in the same class path and named the same filename as the `Enum` defined above**
 
@@ -80,7 +87,7 @@ For example, create a xml file named `SampleResultCode.xml` under `com/myproject
 </resource-bundle>
 ```
 
-3. Application
+###3. Start to use :-)
 ```
 @Test
 public void resultCode() {
