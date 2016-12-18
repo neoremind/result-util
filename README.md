@@ -21,7 +21,7 @@ Check out the lastest version on Maven Central.
 By default, org.slf4j:slf4j-api:jar:1.7.7 and org.slf4j:slf4j-log4j12:jar:1.7.7 are used as logger.
 
 You can switch to other slf4j implementation such as logback and exclude log4j like below:
-
+```
 <dependency>
     <groupId>net.neoremind</groupId>
     <artifactId>result-util</artifactId>
@@ -32,7 +32,7 @@ You can switch to other slf4j implementation such as logback and exclude log4j l
         </exclusion>
     </exclusions>
 </dependency>
-
+```
 
 ## Usage
 ###1. Define result enum
