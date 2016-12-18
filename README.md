@@ -4,7 +4,7 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.neoremind/result-util/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.neoremind/result-util)
 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-Result utility for Java programmer
+Result code and message utility for Java programmer
 
 ##Prerequisite
 
