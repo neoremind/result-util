@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-bundle name="ResultCode">
+    <message id="HTTP_SUCCESS">
+        <data>Operation is successful</data>
+        <code>10001</code>
+    </message>
+    <message id="HTTP_FAILED">
+        <data>Operation failed with HTTP CODE = {0}</data>
+        <code>10002</code>
+    </message>
+    <message id="SERVICE_FAILURE">
+        <code>10003</code>
+    </message>
+    <message id="DAO_FAILURE">
+        <data>DAO failure</data>
+    </message>
+</resource-bundle>
